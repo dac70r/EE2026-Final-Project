@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1649423880">
+  <File Type="PA-TCL" Name="Top_Student.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Top_Student_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Top_Student_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Top_Student.vds"/>
+  <File Type="RDS-UTIL" Name="Top_Student_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Top_Student_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Top_Student.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Top_Student_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Top_Student_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Audio_Capture.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Digital Design/EE2026 Labs/LAB Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Audio_Capture.v"/>
+        <Attr Name="ImportTime" Val="1570395503"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BCD_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/BCD_control.v"/>
+        <Attr Name="ImportTime" Val="1649218317"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BCD_to_Cathodez.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/BCD_to_Cathodez.v"/>
+        <Attr Name="ImportTime" Val="1649177563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Oled_Display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Digital Design/EE2026 Labs/LAB Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v"/>
+        <Attr Name="ImportTime" Val="1570395512"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/anode_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/anode_control.v"/>
+        <Attr Name="ImportTime" Val="1649217759"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/clock_divider.v"/>
+        <Attr Name="ImportTime" Val="1649177414"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/coordinates.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/coordinates.v"/>
+        <Attr Name="ImportTime" Val="1647180191"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/d_flipflop.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/d_flipflop.v"/>
+        <Attr Name="ImportTime" Val="1649196232"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/image.v"/>
+        <Attr Name="ImportTime" Val="1649083952"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/image4.v"/>
+        <Attr Name="ImportTime" Val="1649076755"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image5.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/image5.v"/>
+        <Attr Name="ImportTime" Val="1649076806"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/my_20hz_clock.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Digital Design/EE2026 Labs/LAB Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/my_20hz_clock.v"/>
+        <Attr Name="ImportTime" Val="1646274511"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/refreshcounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/refreshcounter.v"/>
+        <Attr Name="ImportTime" Val="1649177451"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seven_segment.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/seven_segment.v"/>
+        <Attr Name="ImportTime" Val="1649220967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sub-menu2_clean.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/sub-menu2_clean.v"/>
+        <Attr Name="ImportTime" Val="1649076670"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/too_loud.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/too_loud.v"/>
+        <Attr Name="ImportTime" Val="1649076571"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/traffic_light.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/traffic_light.v"/>
+        <Attr Name="ImportTime" Val="1649212324"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Top_Student.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Digital Design/EE2026 Labs/LAB Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v"/>
+        <Attr Name="ImportTime" Val="1570395690"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/db_clk.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/SoundDisplay.srcs/sources_1/new/db_clk.v"/>
+        <Attr Name="ImportTime" Val="1649196322"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../EE2026 Digital Design/EE2026 Labs/LAB Project/7_Segment_Display_Controller/7_Segment_Display_Controller.srcs/sources_1/new/BCD_control.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../EE2026 Digital Design/EE2026 Labs/LAB Project/7_Segment_Display_Controller/7_Segment_Display_Controller.srcs/sources_1/new/BCD_to_Cathodez.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../EE2026 Digital Design/EE2026 Labs/LAB Project/7_Segment_Display_Controller/7_Segment_Display_Controller.srcs/sources_1/new/anode_control.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../EE2026 Digital Design/EE2026 Labs/LAB Project/7_Segment_Display_Controller/7_Segment_Display_Controller.srcs/sources_1/new/clock_divider.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../EE2026 Digital Design/EE2026 Labs/LAB Project/7_Segment_Display_Controller/7_Segment_Display_Controller.srcs/sources_1/new/refreshcounter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../EE2026 Digital Design/EE2026 Labs/LAB Project/7_Segment_Display_Controller/7_Segment_Display_Controller.srcs/sources_1/new/top_student.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/EE2026 Dennis Improvement and Basic Features/archive_project_summary.txt">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Project/EE2026 Dennis Improvement and Basic Features/archive_project_summary.txt"/>
+        <Attr Name="ImportTime" Val="1646875488"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/archive_project_summary.txt"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Top_Student"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026 Digital Design/EE2026 Labs/LAB Project/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1570394606"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
